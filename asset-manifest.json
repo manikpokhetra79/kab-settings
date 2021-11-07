@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/manikpokhetra79/kab-settings/static/css/main.46a788d8.chunk.css",
-    "main.js": "/manikpokhetra79/kab-settings/static/js/main.d237ff5d.chunk.js",
-    "main.js.map": "/manikpokhetra79/kab-settings/static/js/main.d237ff5d.chunk.js.map",
+    "main.js": "/manikpokhetra79/kab-settings/static/js/main.b583cb62.chunk.js",
+    "main.js.map": "/manikpokhetra79/kab-settings/static/js/main.b583cb62.chunk.js.map",
     "runtime-main.js": "/manikpokhetra79/kab-settings/static/js/runtime-main.499cc10c.js",
     "runtime-main.js.map": "/manikpokhetra79/kab-settings/static/js/runtime-main.499cc10c.js.map",
     "static/css/2.383c0125.chunk.css": "/manikpokhetra79/kab-settings/static/css/2.383c0125.chunk.css",
-    "static/js/2.6ef12e11.chunk.js": "/manikpokhetra79/kab-settings/static/js/2.6ef12e11.chunk.js",
-    "static/js/2.6ef12e11.chunk.js.map": "/manikpokhetra79/kab-settings/static/js/2.6ef12e11.chunk.js.map",
+    "static/js/2.12956d54.chunk.js": "/manikpokhetra79/kab-settings/static/js/2.12956d54.chunk.js",
+    "static/js/2.12956d54.chunk.js.map": "/manikpokhetra79/kab-settings/static/js/2.12956d54.chunk.js.map",
     "static/js/3.169fbad1.chunk.js": "/manikpokhetra79/kab-settings/static/js/3.169fbad1.chunk.js",
     "static/js/3.169fbad1.chunk.js.map": "/manikpokhetra79/kab-settings/static/js/3.169fbad1.chunk.js.map",
     "index.html": "/manikpokhetra79/kab-settings/index.html",
     "static/css/2.383c0125.chunk.css.map": "/manikpokhetra79/kab-settings/static/css/2.383c0125.chunk.css.map",
     "static/css/main.46a788d8.chunk.css.map": "/manikpokhetra79/kab-settings/static/css/main.46a788d8.chunk.css.map",
-    "static/js/2.6ef12e11.chunk.js.LICENSE.txt": "/manikpokhetra79/kab-settings/static/js/2.6ef12e11.chunk.js.LICENSE.txt",
+    "static/js/2.12956d54.chunk.js.LICENSE.txt": "/manikpokhetra79/kab-settings/static/js/2.12956d54.chunk.js.LICENSE.txt",
     "static/media/dp.f9b4314d.png": "/manikpokhetra79/kab-settings/static/media/dp.f9b4314d.png",
     "static/media/logo.4c6145ce.png": "/manikpokhetra79/kab-settings/static/media/logo.4c6145ce.png",
     "static/media/menufooter.40653727.png": "/manikpokhetra79/kab-settings/static/media/menufooter.40653727.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.499cc10c.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.6ef12e11.chunk.js",
+    "static/js/2.12956d54.chunk.js",
     "static/css/main.46a788d8.chunk.css",
-    "static/js/main.d237ff5d.chunk.js"
+    "static/js/main.b583cb62.chunk.js"
   ]
 }
