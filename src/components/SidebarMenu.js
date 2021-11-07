@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../images/logo.png';
 import discussion from '../images/discussion.png';
 import classroom from '../images/classroom.png';
-import education from '../images/education.png';
-import dp from '../images/dp.png';
+
 import dashboard from '../images/dashboard.png';
 import progress from '../images/progress.png';
 import menufooter from '../images/menufooter.png';
@@ -15,17 +14,12 @@ const SidebarMenu = () => {
     <>
       <nav>
         <Link to="/">
-          <img style={{ width: '200px' }} src={logo} alt="logo" />
+          <img className="logo" src={logo} alt="logo" />
         </Link>
         <ul className="menu-list">
           <li>
             <Link to="/dashboard">
-              <img
-                className="dashboardlogo"
-                style={styles.dashboardlogo}
-                src={dashboard}
-                alt="dashboard"
-              />
+              <img className="dashboardlogo" src={dashboard} alt="dashboard" />
             </Link>
           </li>
           <li>
@@ -71,7 +65,12 @@ const SidebarMenu = () => {
             </Link>
           </li>
           <li>
-            <img style={{ width: '150px' }} src={menufooter} alt="menufooter" />
+            <img
+              style={{ width: '120px' }}
+              className="menufooter"
+              src={menufooter}
+              alt="menufooter"
+            />
           </li>
         </ul>
       </nav>
@@ -80,15 +79,10 @@ const SidebarMenu = () => {
 };
 const styles = {
   menuimages: {
-    width: '30px',
-    height: '32px',
+    width: '22px',
+    height: '25px',
     marginRight: '10px',
-    marginTop: '15px',
-  },
-  dashboardlogo: {
-    backgroundColor: '#fff',
-    padding: '10px',
-    // boxShadow: '0 10px 10px 0 rgb(0 0 0 / 20%);',
+    marginTop: '16px',
   },
 };
 export default SidebarMenu;

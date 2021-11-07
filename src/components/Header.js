@@ -1,13 +1,13 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+
 import headerbell from '../images/headerbell.png';
 import headerflag from '../images/headerflag.png';
 import dp from '../images/dp.png';
 const Header = (props) => {
   return (
-    <div className="d-flex flex-row justify-content-between p-4 my-3">
+    <div className="d-flex flex-row justify-content-between p-4 my-2">
       <div>
-        <h1 className="header-title">Settings</h1>
+        <p className="header-title">Settings</p>
       </div>
       <div>
         <img

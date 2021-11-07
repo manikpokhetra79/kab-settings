@@ -3,28 +3,169 @@
 }
 body {
   background-color: #fff;
+  font-size: 14px;
 }
-
+a {
+  text-decoration: none;
+}
 /*sidebar menu */
 .sidebarMenu {
   background-color: #f4f6f6;
+  width: 20%;
+  height: 100vh;
 }
 .menu-list {
   list-style-type: none;
 }
 .menu-list li {
   margin-top: 6px;
+  font-size: 14px;
 }
 .menu-list a {
   text-decoration: none;
   color: #707070;
+}
+.dashboardlogo {
+  background-color: #fff;
+  padding: 8px;
 }
 .dashboardlogo:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-out;
   box-shadow: 0 10px 10px 0 rgb(0 0 0 / 20%);
 }
+.logo {
+  width: 180px;
+}
 /* header */
 .username {
   color: #fd9191;
+}
+.header-title {
+  font-size: 40px;
+}
+/* main settings page */
+.main-section {
+  width: 80%;
+}
+.settings-main {
+  width: 80%;
+}
+label {
+  margin-right: 30px;
+  margin-left: 20px;
+  color: #707070;
+}
+input {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 13px;
+  width: 180px;
+}
+.row2 {
+  width: 50%;
+}
+/* setting page submit button */
+.button {
+  color: #fff;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  margin-right: 2rem;
+}
+.btnApply {
+  background-color: #77cb74;
+}
+.btnApply:hover {
+  background-color: #94da91;
+
+  transition: all 0.5s linear;
+}
+.btnCancel {
+  background-color: #ff7777;
+}
+.btnCancel:hover {
+  background-color: #f78b8b;
+}
+/* media queries */
+@media screen and (max-width: 1200px) {
+  .menu-list li {
+    margin-top: 6px;
+    font-size: 12px;
+  }
+  label {
+    font-size: 12px;
+  }
+  .settings-main {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .settings-main {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 798px) {
+  .dashboardlogo {
+    width: 100px;
+  }
+  .logo {
+    width: 160px;
+  }
+  .sidebarMenu {
+    width: 25%;
+  }
+  .main-section {
+    width: 75%;
+  }
+  .header-title {
+    font-size: 30px;
+  }
+  input {
+    padding: auto;
+    width: 150px;
+    font-size: 12px !important;
+  }
+  .row2 {
+    width: 70%;
+  }
+  .username {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .username {
+    display: none;
+  }
+  .app {
+    flex-direction: column;
+  }
+  .sidebarMenu {
+    width: 100%;
+    height: auto;
+  }
+  .logo {
+    width: 120px;
+  }
+  .sidebarMenu nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .row2 {
+    width: 65%;
+  }
+  .menu-list a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .menufooter {
+    display: none;
+  }
+  .main-section {
+    width: 100%;
+  }
 }
