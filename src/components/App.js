@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import DummyComponent from './DummyComponent';
 import SidebarMenu from './SidebarMenu';
 import Settings from './Settings';
-import { Container, Row, Col } from 'react-bootstrap';
+
 import { user } from '../util/user';
 const App = () => {
   // dummy user details
@@ -30,7 +30,12 @@ const App = () => {
                   <Settings user={userData} handleUpdate={handleUserUpdate} />
                 }
               />
-              <Route path="/dashboard" element={<DummyComponent />} />
+              <Route
+                path="/dashboard"
+                element={
+                  <Settings user={userData} handleUpdate={handleUserUpdate} />
+                }
+              />
               <Route path="/select-chapter" element={<DummyComponent />} />
               <Route path="/class" element={<DummyComponent />} />
               <Route path="/class-forum" element={<DummyComponent />} />
