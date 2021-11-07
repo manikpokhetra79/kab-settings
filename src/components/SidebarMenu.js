@@ -71,7 +71,7 @@ const SidebarMenu = () => {
             </Link>
           </li>
           <li>
-            <img src={menufooter} alt="menufooter" />
+            <img style={{ width: '150px' }} src={menufooter} alt="menufooter" />
           </li>
         </ul>
       </nav>

@@ -1,21 +1,34 @@
 import React from 'react';
-
+import { Row, Col } from 'react-bootstrap';
+import headerbell from '../images/headerbell.png';
+import headerflag from '../images/headerflag.png';
+import dp from '../images/dp.png';
 const Header = (props) => {
   return (
-    <div className="settings-header d-flex justify-between">
-      <div className="col">
+    <div className="d-flex flex-row justify-content-between p-4 my-3">
+      <div>
         <h1 className="header-title">Settings</h1>
       </div>
-      <div className="sh-right col d-flex align-center justify-between">
-        <i className="fas fa-flag fa-2x pl-3"></i>
-        <i className="fas fa-bell fa-2x"></i>
+      <div>
+        <img
+          style={{ width: '40px' }}
+          className="m-2"
+          src={headerflag}
+          alt="headerflag"
+        />
+        <img
+          style={{ width: '30px' }}
+          className="m-2"
+          src={headerbell}
+          alt="headerbell"
+        />
         <img
           style={{ width: '60px', height: '60px' }}
-          src="https://images.unsplash.com/photo-1604004555489-723a93d6ce74"
+          src={dp}
           alt="avatar"
           className="avatar"
         />
-        <span className="color-1">{props.user.full}</span>
+        <span className="mx-3 username">{props.user.full}</span>
       </div>
     </div>
   );
